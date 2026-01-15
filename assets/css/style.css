@@ -1,1 +1,60 @@
 assets/css/style.css
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+  line-height: 1.6;
+}
+
+header {
+  background: #0F172A;
+  color: white;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Georgia, "Playfair Display", serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Playfair Display", serif;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #22C55E;
+  color: #0F172A;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+footer {
+  background: #0F172A;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 80px;
+  font-size: 14px;
+}
