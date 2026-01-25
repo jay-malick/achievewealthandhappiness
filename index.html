@@ -1,43 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Achieve Wealth and Happiness | Jay Malick</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achieve Wealth and Happiness | Jay Malick</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .nav {
+            background: #1a3a6b;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            padding: 4rem 2rem;
+        }
+        
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .hero-text h1 {
+            font-size: 3rem;
+            color: #1a3a6b;
+            margin-bottom: 1rem;
+        }
+        
+        .hero-text .subtitle {
+            font-size: 1.5rem;
+            color: #d4af37;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-text p {
+            font-size: 1.125rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #1a3a6b;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            background: #d4af37;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .hero-image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1a3a6b;
+            margin-bottom: 3rem;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h3 {
+            color: #1a3a6b;
+            margin-bottom: 1rem;
+        }
+        
+        .card p {
+            color: #666;
+        }
+        
+        .cta {
+            background: linear-gradient(135deg, #1a3a6b 0%, #2c5aa0 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            color: white;
+        }
+        
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+        
+        .cta p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn-secondary {
+            background: #d4af37;
+        }
+        
+        .btn-secondary:hover {
+            background: #c39d2f;
+        }
+        
+        footer {
+            background: #1a3a6b;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Jay Malick</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="speaking.html">Speaking</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<header>
-  <h1>Achieve Wealth and Happiness</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="philosophy.html">Philosophy</a>
-    <a href="book.html">Book</a>
-    <a href="about.html">About</a>
-    <a href="resources.html">Resources</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Achieve Wealth and Happiness</h1>
+                <p class="subtitle">Proven Strategies for Success</p>
+                <p>Discover the principles and practices that lead to lasting prosperity and genuine fulfillment. Learn how to build wealth while maintaining the relationships and wellbeing that matter most.</p>
+                <a href="https://www.amazon.com/Achieve-Wealth-Happiness-Strategies-Success/dp/B0BLFZZ6NY" class="btn" target="_blank">Get the Book on Amazon</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://m.media-amazon.com/images/I/71VkQhE3RmL._SY522_.jpg" alt="Achieve Wealth and Happiness book cover">
+            </div>
+        </div>
+    </section>
 
-<main>
-  <h2>Proven Strategies for Success</h2>
-  <p>
-    Wealth and happiness are not competing goals. When pursued intentionally,
-    they reinforce one another.
-  </p>
+    <section class="section">
+        <h2>What You'll Learn</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Financial Mastery</h3>
+                <p>Build sustainable wealth through proven strategies for investing, saving, and creating multiple income streams that provide long-term security.</p>
+            </div>
+            <div class="card">
+                <h3>Personal Growth</h3>
+                <p>Develop the mindset, habits, and skills of highly successful individuals who achieve their goals while maintaining balance and fulfillment.</p>
+            </div>
+            <div class="card">
+                <h3>Relationship Excellence</h3>
+                <p>Strengthen the personal and professional relationships that form the foundation of lasting happiness and career success.</p>
+            </div>
+            <div class="card">
+                <h3>Life Balance</h3>
+                <p>Learn to harmonize professional ambition with personal wellbeing, creating a life that's both prosperous and deeply satisfying.</p>
+            </div>
+            <div class="card">
+                <h3>Strategic Thinking</h3>
+                <p>Master the art of setting meaningful goals and creating actionable plans that turn your vision into reality.</p>
+            </div>
+            <div class="card">
+                <h3>Legacy Building</h3>
+                <p>Create lasting impact through meaningful work and contributions that extend beyond financial success.</p>
+            </div>
+        </div>
+    </section>
 
-  <a class="button" href="philosophy.html">Explore the Philosophy</a>
-  <a class="button" href="book.html">Buy the Book</a>
-</main>
+    <section class="cta">
+        <h2>Start Your Journey Today</h2>
+        <p>Transform your life with proven strategies for wealth and happiness</p>
+        <a href="https://www.amazon.com/Achieve-Wealth-Happiness-Strategies-Success/dp/B0BLFZZ6NY" class="btn btn-secondary" target="_blank">Order Now on Amazon</a>
+    </section>
 
-<footer>
-  © Jay Malick · AchieveWealthandHappiness.com
-</footer>
-
+    <footer>
+        <p>&copy; 2026 Jay Malick. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-<img src="images/book-cover.jpg" alt="Book Cover">
-
-<a href="https://www.amazon.com/dp/YOUR_BOOK_ID" target="_blank">Buy the Book</a>
-<link rel="stylesheet" href="style.css">
