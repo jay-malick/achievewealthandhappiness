@@ -1,42 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About Jay Malick</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jay Malick | Author & Speaker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .nav {
+            background: #1a3a6b;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #1a3a6b 0%, #2c5aa0 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .about-section {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem;
+            align-items: start;
+        }
+        
+        .author-photo {
+            text-align: center;
+        }
+        
+        .author-photo img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .author-bio h2 {
+            color: #1a3a6b;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .author-bio h3 {
+            color: #1a3a6b;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .author-bio p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        footer {
+            background: #1a3a6b;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+        
+        @media (max-width: 768px) {
+            .about-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Jay Malick</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="speaking.html">Speaking</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<header>
-  <h1>Achieve Wealth and Happiness</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="philosophy.html">Philosophy</a>
-    <a href="book.html">Book</a>
-    <a href="about.html">About</a>
-    <a href="resources.html">Resources</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <section class="page-header">
+        <h1>About Jay Malick</h1>
+        <p>Author, Speaker, Success Strategist</p>
+    </section>
 
-<main>
-  <h2>About Jay Malick</h2>
+    <section class="about-section">
+        <div class="author-photo">
+            <img src="images/author-photo.jpg" alt="Jay Malick professional headshot">
+        </div>
+        <div class="author-bio">
+            <h2>Building Wealth While Creating Happiness</h2>
+            
+            <p>Jay Malick is a financial services professional, author, and speaker dedicated to helping individuals achieve both financial success and personal fulfillment. With decades of experience in wealth management and personal development, Jay brings a unique perspective on how to build prosperity without sacrificing the relationships and values that matter most.</p>
+            
+            <p>Throughout his career, Jay has witnessed firsthand how the pursuit of wealth can either enhance or diminish quality of life. This observation led him to develop a comprehensive approach that integrates financial strategy with personal wellbeing, relationship development, and life satisfaction.</p>
+            
+            <h3>Professional Experience</h3>
+            
+            <p>Jay's background in financial services has given him deep insight into wealth creation, investment strategy, and long-term financial planning. He has helped countless individuals and families build sustainable wealth while maintaining balance in their personal lives.</p>
+            
+            <h3>Philosophy & Approach</h3>
+            
+            <p>Jay believes that wealth and happiness are not competing goals but complementary pursuits. When approached intentionally, financial success can provide the resources and freedom to create deeper relationships, pursue meaningful work, and live with purpose. His book, "Achieve Wealth and Happiness: Proven Strategies for Success," distills these principles into actionable strategies that anyone can implement.</p>
+            
+            <h3>Speaking & Teaching</h3>
+            
+            <p>As a sought-after speaker, Jay shares his insights on wealth building, personal development, and achieving life balance with audiences ranging from financial professionals to corporate teams to individuals seeking to transform their relationship with money and success.</p>
+            
+            <p>His message resonates because it's grounded in real-world experience and a genuine commitment to helping others thrive—not just financially, but in all areas of life that matter.</p>
+        </div>
+    </section>
 
-  <p>
-    Jay Malick is an author, educator, and wealth management professional
-    with more than 30 years of experience.
-  </p>
-
-  <p>
-    His mission is to help people align money with purpose and build
-    lives that are both prosperous and meaningful.
-  </p>
-</main>
-
-<footer>
-  © Jay Malick
-</footer>
-<link rel="stylesheet" href="style.css">
+    <footer>
+        <p>&copy; 2026 Jay Malick. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
